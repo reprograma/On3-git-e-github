@@ -184,12 +184,19 @@ Vamos executar algumas ações básicas para nos habituarmos com o terminal Git 
 
 <img src="./img-readme/etapa1-git-status.png">
 
+---
+
 <img src="./img-readme/etapa2-git-add.png">
+
+---
 
 <img src="./img-readme/etapa3-git-commit.png">
 
+---
+
 <img src="./img-readme/etapa4-git-log.png">
 
+---
 **Etapas para rastreamento local**:
 
 	Mantendo o controle de versão dos seus projetos
@@ -333,7 +340,7 @@ O Git estará de olho em tudo o que você alterar.
 
 **GitHub** é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. [[Wikipedia](https://pt.wikipedia.org/wiki/GitHub)]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Github](https://png.pngtree.com/element_our/sm/20180626/sm_5b321c9877382.png)](https://www.youtube.com/embed/w3jLJU7DT5E)
 
 [vídeo GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
@@ -545,4 +552,4 @@ As outras pessoas de sua equipe irão revisar seu código (***code review***) e 
 
 Isso significa que o código da sua branch **ex-aula-seuNome** estará replicado na branch **master**. A branch **ex-aula-seuNome** foi fundida (***merged***) com a branch **master**
 
-	<img src="https://media.giphy.com/media/y8Mz1yj13s3kI/giphy.gif">
+<img src="https://media.giphy.com/media/y8Mz1yj13s3kI/giphy.gif">
