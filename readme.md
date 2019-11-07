@@ -37,7 +37,9 @@ Com o Git podemos desenvolver projetos colaborativos, com diversas pessoas traba
 Tradução:
 
 > _ Este é o *Git*. Ele rastreia o trabalho colaborativo em projetos através de um belo distribuído modelo de árvore da teoria dos grafos.
+
 > _ Legal. Como usamos isso?
+
 > _ Não tenho ideia. Apenas memorize esses comandos em shell e digite-os para sincronizar. Se você receber erros, salve seu trabalho em outro lugar, exclua o projeto e baixe uma nova cópia.
 
 ### Importância:
