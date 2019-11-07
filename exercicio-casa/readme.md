@@ -8,7 +8,8 @@
   git --version
   ```
 
-* Entre no gitbash
+* Abra o Git Bash
+
 * Verifique se seu usuário está configurado na sua máquina. (Deve aparecer seu ***user.name*** e ***user.email***)
 	
   ```
@@ -29,7 +30,9 @@
 ---
 
 ##### Clonar o repositório do exercício na sua máquina
-* Abra o gitbash
+
+* Entre no Git Bash
+
 * Verifique se está no diretório em que deseja clonar o repositório
 	
   ```
@@ -45,7 +48,7 @@
 * Entrar nesse repositório local
 
 	```
-  cd On3-git-e-github
+  cd On3-git-e-github/exercicio-casa
   ```
 
 * Criar uma branch nova com seu nome.
@@ -60,6 +63,8 @@
   code .
   ```
 
+* Entrar na pasta exercicio-casa e siga as instruções do readme.md
+
 * Alterar a imagem e o link para seu github na `<div>` que contiver seu nome.
 	* Use o link do seu github para colocar no ***href*** na tag `<a>`. (Ex: https://github.com/reprograma)
 	* Use o link da imagem do seu avatar no github para colocar no ***src*** da tag `<img>`. Clique com o botão direito sobre a imagem do seu perfil no github e copie o endereço da imagem. (Ex: https://avatars0.githubusercontent.com/u/27314899?s=200&v=4)
@@ -72,7 +77,7 @@
     ```
     <div class="container__aluna">
         <a href="#" target="_blank">
-            <img class="container__aluna-img" src="https://via.placeholder.com/500" alt="Cintia Fumi">
+            <img class="container__aluna-img" src="https://via.placeholder.com/500" alt="">
         </a>
         <p>Cintia Fumi</p>
     </div>
@@ -91,7 +96,9 @@
 
 * Conferir essa alteração no navegador (Chrome).
 	* *Comportamento esperado: ao clicar na sua foto, o link do seu github irá se abrir numa aba nova*
-* Voltando para o gitbash
+
+* Voltando para o Git Bash
+
 * Verificar o status
 	
   ```
@@ -113,7 +120,7 @@
 * Adicionar mensagem de ***commit***
 	
   ```
-  git commit -m "adicionando foto e link de Cíntia para Githbub"
+  git commit -m "adicionando foto e link de Cíntia Fumi para Githbub"
   ```
 
 * Subir as alterações para o seu repositório remoto
@@ -127,7 +134,7 @@
 * Criar novo ***New pull request*** pelo github da reprograma verificando se está fazendo a solicitação da suaBranch para a master
 	*base: **master**    **<=**    compare: **suaBranch***
 ---
-##### Após todos ***pull request*** serem aceitos, caso queria atualizar localmente seu repositório:
+##### Após todos ***pull request**ula* dessa a serem aceitos, caso queria atualizar localmente seu repositório:
 * Voltar para a branch master
 	
   ```
@@ -162,9 +169,9 @@
 * Criar um novo respositório no seu github
 * Copiar o link desse novo repositório e adicionar o remote ***meuRepo*** como endereço do seu repositório
     
-    ```
-    git remote add meuRepo https://github.com/<seuLogin>/<seuNovoRepositorio>.git
-    ```
+  ```
+  git remote add meuRepo https://github.com/<seuLogin>/<seuNovoRepositorio>.git
+  ```
 
 	obs: Nesse link acima, substituir `<seuLogin>` e `<seuNovoRepositorio>` com informações do seu login e seu repositório
 * Commitar o que está local para seu repo novo

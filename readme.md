@@ -157,7 +157,7 @@ Vamos executar algumas ações básicas para nos habituarmos com o terminal Git 
 - Comando ***rm -r*** (*remove --recursive*)
 
 	```
-	rm -rf nome-pasta
+	rm -r nome-pasta
 	```
 
 	<img src="https://i.imgur.com/uvou947.gif">
@@ -249,7 +249,7 @@ Disponibilizando seu projeto para o mundo.
 
 * Clicar com o botão direito e abrir o Git Bash selecionando ***Git Bash here***
 
- Listar os arquivos dessa pasta. (Ex: ver os arquivos `index.html` e a pasta `css`)
+* Listar os arquivos dessa pasta. (Ex: ver os arquivos `index.html` e a pasta `css`)
 
 	```
 	ls
