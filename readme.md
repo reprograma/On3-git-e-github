@@ -37,9 +37,7 @@ Com o Git podemos desenvolver projetos colaborativos, com diversas pessoas traba
 Tradução:
 
 > _ Este é o *Git*. Ele rastreia o trabalho colaborativo em projetos através de um belo distribuído modelo de árvore da teoria dos grafos.
-
 > _ Legal. Como usamos isso?
-
 > _ Não tenho ideia. Apenas memorize esses comandos em shell e digite-os para sincronizar. Se você receber erros, salve seu trabalho em outro lugar, exclua o projeto e baixe uma nova cópia.
 
 ### Importância:
@@ -180,26 +178,29 @@ Vamos executar algumas ações básicas para nos habituarmos com o terminal Git 
 
 ### De: pasta local => Para: repositório remoto <a name="local-to-remote"></a>
 
-#### O que vai acontecer por trás da linha de comando:
+#### O que vai acontecer por trás da linha de comando dentro da pasta do seu projeto:
+
+Ilustração da pasta contendo todos os arquivos do projeto:
 
 <img src="./img-readme/etapa1-git-status.png">
 
 ---
 
+Esses arquivos devem ser adicionados a uma área de preparação (*staging area*)
+
 <img src="./img-readme/etapa2-git-add.png">
 
 ---
 
-<img src="./img-readme/etapa3-git-commit.png">
+É feito um acordo (*commit*) indicando os **arquivos**, o(a) **autor(a)** e a **mensagem** referente à modificação no projeto. A pasta oculta **.git** irá guardar o histórico com essas informações.
+
+<img src="./img-readme/etapa3-git-log.png">
 
 ---
 
-<img src="./img-readme/etapa4-git-log.png">
-
----
 **Etapas para rastreamento local**:
 
-	Mantendo o controle de versão dos seus projetos
+Mantendo o controle de versão dos seus projetos
 	
 1. [Configuração de autoria](#config)
 
@@ -213,7 +214,7 @@ Vamos executar algumas ações básicas para nos habituarmos com o terminal Git 
 
 **Etapas para rastreamento remoto**:
 
-	Disponibilizando seu projeto para o mundo.
+Disponibilizando seu projeto para o mundo.
 
 5. [Criar um repositório novo no Github](#remote)
 
@@ -226,6 +227,8 @@ Vamos executar algumas ações básicas para nos habituarmos com o terminal Git 
 * Clicar com o botão direito e abrir o Git Bash selecionando ***Git Bash here***
 
 * Configurar autoria. (Definição de quem vai assinar o compromisso pela mudança realizada)
+
+	* Você está configurando seu usuário global com as informações de nome e email. Caso utilize o computador compartilhado com outras pessoas que também usam Git, fazer essa etapa de verificação sempre que for codar. Caso seja a única pessoa que utiliza o Git neste computador, você fará isso uma única vez.
 
 	```
 	git config --global user.name "Cintia Fumi"
@@ -287,7 +290,7 @@ Significa que estamos nessa etapa:
 *	Ou... Adicionar todos os arquivos
 
 	```
-	git add .
+	git add --all
 	```
 
 * Verificar o status da sua pasta
@@ -307,7 +310,7 @@ Significa que os arquivos foram adicionados para a área de preparação (*stagi
 * Adicionar a mensagem dizendo o que você fez de alteração.
 
 	```
-	git commit -m "Primeiro projeto da Reprograma"
+	git commit -m "primeiro projeto da reprograma, contendo um site sobre mim"
 	```
 	
  A palavra *commit* significa comprometer-se. Isso significa que você assume o compromisso de que adicionou os arquivos novos (ou modificados), assinou a autoria e deixou uma mensagem dizendo o que foi alterado.
@@ -330,6 +333,8 @@ Pronto! Sua pasta está com controle de versão!
 
 Significa que *plantamos a árvore* e sua árvore está devidamente rastreada.
 
+<img src="">
+
 O Git estará de olho em tudo o que você alterar.
 
 <img src="https://media1.giphy.com/media/JIe9KLItH0cCc/giphy.gif">
@@ -340,13 +345,19 @@ O Git estará de olho em tudo o que você alterar.
 
 **GitHub** é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. [[Wikipedia](https://pt.wikipedia.org/wiki/GitHub)]
 
-[![Github](https://png.pngtree.com/element_our/sm/20180626/sm_5b321c9877382.png)](https://www.youtube.com/embed/w3jLJU7DT5E)
+[![Github](https://png.pngtree.com/element_our/sm/20180626/sm_5b321c9877382.png)](https://youtu.be/w3jLJU7DT5E)
 
-[vídeo GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+[vídeo GitHub](https://youtu.be/w3jLJU7DT5E)
 
 ---
 
 5. **Criar um repositório novo no GitHub** <a name="remote><a>
+
+* Cria uma conta no Github, caso você ainda não tenha.
+
+* Entra na sua página do GitHub. (Fazer login)
+
+* Criar um repositório novo e nomear
 
 * Após criado um novo repositório lá no GitHub, seguir as instruções de adicionar o endereço remoto
 
