@@ -1,6 +1,7 @@
 Seguir a <a href="https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit?usp=sharing" target="_blank">APRESENTAÇÃO</a>
 
-Clique com o botão direito e selecione ***Git Bash here***
+Você deve ter instalado o Git na sua máquina.
+Na Área de Trabalho (Desktop), clique com o botão direito e selecione ***Git Bash here***
 
 Este é o ***Git Bash***. É como um terminal.
 Então, executamos ações por meio de instruções de linha de comando.
