@@ -11,7 +11,7 @@ Seguir a <a href="https://docs.google.com/presentation/d/19pGo9F7-0Nh68SOtI3jMsQ
 - `git checkout -b ex-aula-seuNome`: para ir para uma branch nova chamada ex-aula-seuNome.
 - `code .`: para abrir o VSCode nessa pasta.
 - Abrir o arquivo `index.html` da pasta `5-exercicio-projeto-aula` no seu navegador (Chrome).
-- No VSCode, verificar se está na sua branch pela parte inferior esquerda do VSCode
+- No VSCode, verificar se está na sua branch pela parte inferior esquerda do VSCode.
 - Alterar o código colocando `seu login GitHub` na `<td>` abaixo do seu nome.
   Exemplo:
 
@@ -41,8 +41,7 @@ Seguir a <a href="https://docs.google.com/presentation/d/19pGo9F7-0Nh68SOtI3jMsQ
 - Verifique no GitHub se sua alteração foi enviada com sucesso. Veja se sua branch está no repositório: https://github.com/reprograma/On3-git-e-github
 - Clicar na aba **Pull requests** do repositório no GitHub.
 - Clicar em **Compare & pull request** e verifique as alterações no código.
-- Criar o **pull request** verificando se está indo da sua branch `ex-aula-seuNome` para a branch master
-  **base: master <= compare: ex-aula-seuNome**
+- **base: master <= compare: ex-aula-seuNome**: Criar o **pull request** verificando se está indo da sua branch `ex-aula-seuNome` para a branch master.
 - Solicitar a revisão de código para a professora **cintiafumi**.
 - Aguardar a aprovação da sua solicitação.
 - A professora fará o **merge** da sua branch `ex-aula-seuNome` para a `master`.
