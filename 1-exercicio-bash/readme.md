@@ -1,4 +1,4 @@
-Seguir a [APRESENTAÇÃO](https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit?usp=sharing)
+Seguir a <a href="https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit?usp=sharing" target="_blank">APRESENTAÇÃO</a>
 
 Clique com o botão direito e selecione ***Git Bash here***
 
