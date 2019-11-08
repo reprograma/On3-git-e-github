@@ -10,7 +10,7 @@ Comandos para rastrear localmente um projeto:
 - `git add <nome do arquivo>` ou `git add --all` ou `git add .`: adicionar os arquivos na área de preparação
 - `git commit -m "Mensagem de bom senso"`: adicionar a mensagem do que foi feito nesse(s) arquivo(s) adicionado(s)
 
-Enviar o seu repositório local para um site de hospedagem de repositórios (ex: GitHub):
+Enviar o seu repositório local para um site de hospedagem de repositórios (ex: [GitHub](https://github.com)):
 - Criar um repositório novo no site do GitHub https://github.com/new
 - Voltar para o Git Bash dentro da pasta
 - `git remote add origin https://github.com/<seuLogin>/<seuRepositorio>.git`: adicionando o endereço do repositório remoto
