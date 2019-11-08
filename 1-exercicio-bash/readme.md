@@ -1,5 +1,7 @@
 Seguir a <a href="https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit?usp=sharing" target="_blank">APRESENTAÇÃO</a>
 
+### Criando e deletando pastas e arquivos pelo terminal Git Bash
+
 Você deve ter instalado o Git na sua máquina.
 Na Área de Trabalho (Desktop), clique com o botão direito e selecione ***Git Bash here***
 

@@ -1,5 +1,7 @@
 Seguir a <a href="https://docs.google.com/presentation/d/1XNoWxZekQSUR9kwQHI8ffWd4x_PkPEAVPVXjse3NSTI/edit?usp=sharing" target="_blank">APRESENTAÇÃO</a>
 
+### Rastreando seu projeto localmente e subindo para o GitHub
+
 Seus dados devem estar previamente configurados no Git da sua máquina.
 Verifique se seu **user.name** e **user.email** estão configurados:
 - `git config --list`
