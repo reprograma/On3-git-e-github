@@ -19,7 +19,7 @@
 
 - Abrir o Git Bash.
 
-	<img src="./img-readme/bash-here.exe">
+	<img src="./img-readme/bash-here.png">
 
 ---
 ## O que é Git <a name="git"></a>
@@ -32,7 +32,7 @@ Com o Git podemos desenvolver projetos colaborativos, com diversas pessoas traba
 
 #### *Quem nunca salvou inúmeras versões de um arquivo?*
 
-<img src="./_img-readme/versionamento.PNG">
+<img src="./img-readme/versionamento.PNG">
 
 
 ### Importância:
@@ -47,7 +47,7 @@ Com o Git podemos desenvolver projetos colaborativos, com diversas pessoas traba
 
 
 ## O que é GitHub :octocat: <a name="github"></a>
-[GitHub]() é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. GitHub é amplamente utilizado por programadores para divulgação de seus trabalhos ou para que outros programadores contribuam com o projeto.[Wikipedia](https://pt.wikipedia.org/wiki/GitHub)
+[GitHub](https://pt.wikipedia.org/wiki/GitHub) é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. GitHub é amplamente utilizado por programadores para divulgação de seus trabalhos ou para que outros programadores contribuam com o projeto.
 
 ---
 ## Gitflow <a name="gitflow"></a>
