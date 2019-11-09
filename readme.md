@@ -1,10 +1,12 @@
-
 # Git e Github :purple_heart:
 
 1. [Instalação do Git](#instalacao)
 2. [O que é Git](#git)
 3. [O que é Github :octocat: ](#github)
 4. [Gitflow](#gitflow)
+
+---
+Seguir a <a href="https://docs.google.com/presentation/d/1pCZ3V23cnopWDDDdj4fYzcBLOjBa60CXMJuGvPKg83o/edit?usp=sharing" target="_blank">APRESENTAÇÃO</a>
 
 ---
 ## Instalação do Git <a name="instalacao"></a>
@@ -48,6 +50,8 @@ Com o Git podemos desenvolver projetos colaborativos, com diversas pessoas traba
 
 ## O que é GitHub :octocat: <a name="github"></a>
 [GitHub](https://pt.wikipedia.org/wiki/GitHub) é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. GitHub é amplamente utilizado por programadores para divulgação de seus trabalhos ou para que outros programadores contribuam com o projeto.
+
+[VÍDEO GITHUB](https://youtu.be/w3jLJU7DT5E)
 
 ---
 ## Gitflow <a name="gitflow"></a>
